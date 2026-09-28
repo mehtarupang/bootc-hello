@@ -1,0 +1,4 @@
+# Replace this with your registry image.
+# Example:
+# quay.io/myuser/bootc-hello:latest
+quay.io/REPLACE_ME/bootc-hello:latest

@@ -1,0 +1,8 @@
+[Unit]
+Description=Educational bootc GitOps reconciliation
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/reconcile-bootc.sh
